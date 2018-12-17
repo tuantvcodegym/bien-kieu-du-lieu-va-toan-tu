@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 4</title>
+</head>
+<body>
+    <input type="text" id="txt-1"/>
+    <input type="text" id="txt-2" readonly="readonly"/>
+    <button onclick="chuvi();">Chu vi</button>
+</body>
+
+<script>
+    function chuvi(){
+        var a =document.getElementById("txt-1").value;
+        var b = (a*2)*3.14;
+        var c =document.getElementById("txt-2");
+        c.value =b;
+    }
+</script>
+
+</html>

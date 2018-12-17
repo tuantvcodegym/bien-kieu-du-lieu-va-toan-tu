@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bai 3</title>
+    </head>
+
+    <body>
+        <input type="text" id="txt-1" placeholder="nhap ban kinh"/>
+        <input type="text" id="txt-2" readonly="readonly" placeholder="dien tich hinh tron"/>
+        <button onclick="hinhtron();">Dien tich</button>
+    </body>
+
+    <script>
+        function hinhtron(){
+            var a =document.getElementById("txt-1").value;
+            var b =(a*a) * 3.14;
+            var c =document.getElementById("txt-2");
+            c.value = b;
+        }
+    </script>
+
+</html>
